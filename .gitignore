@@ -1,27 +1,153 @@
-# Compiled class file
-*.class
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# Log file
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.env
+path/to/venv/
+
+# Poetry
+# poetry.lock - Keep this for reproducible builds
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# AWS CDK
+cdk.out/
+cdk.context.json
+.cdk.staging/
+
+# AWS
+.aws/
+
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs
 *.log
+logs/
+*.log.*
 
-# BlueJ files
-*.ctxt
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+.cache/
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Data files (optional - uncomment if you don't want to commit data)
+# data/sample/*.json
+# data/sample/*.csv
+# data/sample/*.parquet
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+*.sublime-project
+*.sublime-workspace
+
+# Testing
+.coverage
+coverage.xml
+*.cover
+.hypothesis/
+
+# Build artifacts
 *.tar.gz
-*.rar
+*.whl
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# Secrets
+*.pem
+*.key
+*_rsa
+*_rsa.pub
+secrets/
+credentials/
 
-# Kotlin Gradle plugin data, see https://kotlinlang.org/docs/whatsnew20.html#new-directory-for-kotlin-data-in-gradle-projects
-.kotlin/
+# Streamlit
+.streamlit/secrets.toml
+
+# Docker
+docker-compose.override.yml
+
+# Terraform (if used)
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Local scripts and notes
+scratch/
+notes.txt
+TODO.txt
+
+# Hackathon-specific files (not for git)
+*hackathon*.md
+*HACKATHON*.md
+QUICKSTART.md
+DEMO_SCRIPT.md
+IMPLEMENTATION_SUMMARY.md
+HACKATHON_READY.md
+docs/diagrams/demo-flow.md
+docs/diagrams/system-overview.md
+docs/diagrams/quick-reference.txt
+
+# IDE-specific files
+.snapshots/
+.ruff_cache/
+
+# Streamlit secrets (keep config.toml for theme)
+*.github/
+*.streamlit/
