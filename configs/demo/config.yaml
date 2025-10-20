@@ -1,0 +1,7 @@
+env: demo
+region: us-west-2
+data_lake_bucket: merlin-demo-landing
+curated_bucket: merlin-demo-curated
+creative_bucket: merlin-demo-creative
+runs_table: merlin-demo-runs
+actions_table: merlin-demo-actions

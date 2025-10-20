@@ -1,0 +1,7 @@
+env: dev
+region: us-east-1
+data_lake_bucket: merlin-dev-landing
+curated_bucket: merlin-dev-curated
+creative_bucket: merlin-dev-creative
+runs_table: merlin-dev-runs
+actions_table: merlin-dev-actions

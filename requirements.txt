@@ -1,0 +1,1 @@
+# Generated from poetry.lock\n# Install with: pip install -r requirements.txt\n\n# Core dependencies\nstreamlit>=1.32.0\nboto3>=1.34.0\npandas>=2.2.0\nscikit-learn>=1.4.0\nxgboost>=2.0.0\naws-cdk-lib>=2.130.0\npydantic>=2.6.0

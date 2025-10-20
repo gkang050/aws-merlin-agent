@@ -1,0 +1,1217 @@
+[
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-001",
+    "date": "2025-10-18",
+    "units_sold": 2,
+    "net_revenue": 30.52,
+    "ad_spend": 15.33,
+    "inventory_on_hand": 59
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-001",
+    "date": "2025-10-17",
+    "units_sold": 1,
+    "net_revenue": 23.01,
+    "ad_spend": 21.7,
+    "inventory_on_hand": 68
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-001",
+    "date": "2025-10-16",
+    "units_sold": 1,
+    "net_revenue": 17.25,
+    "ad_spend": 26.8,
+    "inventory_on_hand": 51
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-001",
+    "date": "2025-10-15",
+    "units_sold": 1,
+    "net_revenue": 21.65,
+    "ad_spend": 25.35,
+    "inventory_on_hand": 26
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-001",
+    "date": "2025-10-14",
+    "units_sold": 1,
+    "net_revenue": 23.75,
+    "ad_spend": 16.27,
+    "inventory_on_hand": 69
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-001",
+    "date": "2025-10-13",
+    "units_sold": 1,
+    "net_revenue": 17.43,
+    "ad_spend": 18.65,
+    "inventory_on_hand": 88
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-001",
+    "date": "2025-10-12",
+    "units_sold": 1,
+    "net_revenue": 22.94,
+    "ad_spend": 17.79,
+    "inventory_on_hand": 52
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-001",
+    "date": "2025-10-11",
+    "units_sold": 1,
+    "net_revenue": 20.85,
+    "ad_spend": 26.73,
+    "inventory_on_hand": 83
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-001",
+    "date": "2025-10-10",
+    "units_sold": 1,
+    "net_revenue": 17.83,
+    "ad_spend": 28.85,
+    "inventory_on_hand": 51
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-001",
+    "date": "2025-10-09",
+    "units_sold": 1,
+    "net_revenue": 16.24,
+    "ad_spend": 27.23,
+    "inventory_on_hand": 85
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-001",
+    "date": "2025-10-08",
+    "units_sold": 1,
+    "net_revenue": 18.4,
+    "ad_spend": 25.43,
+    "inventory_on_hand": 58
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-001",
+    "date": "2025-10-07",
+    "units_sold": 1,
+    "net_revenue": 15.38,
+    "ad_spend": 27.47,
+    "inventory_on_hand": 54
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-001",
+    "date": "2025-10-06",
+    "units_sold": 2,
+    "net_revenue": 35.58,
+    "ad_spend": 23.75,
+    "inventory_on_hand": 89
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-001",
+    "date": "2025-10-05",
+    "units_sold": 4,
+    "net_revenue": 60.35,
+    "ad_spend": 28.03,
+    "inventory_on_hand": 70
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-001",
+    "date": "2025-10-04",
+    "units_sold": 2,
+    "net_revenue": 42.68,
+    "ad_spend": 18.63,
+    "inventory_on_hand": 47
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-001",
+    "date": "2025-10-03",
+    "units_sold": 3,
+    "net_revenue": 51.92,
+    "ad_spend": 17.02,
+    "inventory_on_hand": 28
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-001",
+    "date": "2025-10-02",
+    "units_sold": 4,
+    "net_revenue": 64.04,
+    "ad_spend": 21.09,
+    "inventory_on_hand": 47
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-001",
+    "date": "2025-10-01",
+    "units_sold": 3,
+    "net_revenue": 55.26,
+    "ad_spend": 21.98,
+    "inventory_on_hand": 22
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-001",
+    "date": "2025-09-30",
+    "units_sold": 6,
+    "net_revenue": 140.25,
+    "ad_spend": 22.68,
+    "inventory_on_hand": 89
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-001",
+    "date": "2025-09-29",
+    "units_sold": 6,
+    "net_revenue": 124.12,
+    "ad_spend": 18.16,
+    "inventory_on_hand": 61
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-001",
+    "date": "2025-09-28",
+    "units_sold": 7,
+    "net_revenue": 142.68,
+    "ad_spend": 18.97,
+    "inventory_on_hand": 23
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-001",
+    "date": "2025-09-27",
+    "units_sold": 5,
+    "net_revenue": 89.05,
+    "ad_spend": 21.14,
+    "inventory_on_hand": 73
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-001",
+    "date": "2025-09-26",
+    "units_sold": 6,
+    "net_revenue": 121.66,
+    "ad_spend": 17.82,
+    "inventory_on_hand": 46
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-001",
+    "date": "2025-09-25",
+    "units_sold": 6,
+    "net_revenue": 110.97,
+    "ad_spend": 27.57,
+    "inventory_on_hand": 75
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-001",
+    "date": "2025-09-24",
+    "units_sold": 5,
+    "net_revenue": 82.55,
+    "ad_spend": 16.21,
+    "inventory_on_hand": 64
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-001",
+    "date": "2025-09-23",
+    "units_sold": 4,
+    "net_revenue": 83.03,
+    "ad_spend": 27.32,
+    "inventory_on_hand": 73
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-001",
+    "date": "2025-09-22",
+    "units_sold": 5,
+    "net_revenue": 100.02,
+    "ad_spend": 28.54,
+    "inventory_on_hand": 77
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-001",
+    "date": "2025-09-21",
+    "units_sold": 3,
+    "net_revenue": 56.32,
+    "ad_spend": 16.76,
+    "inventory_on_hand": 43
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-001",
+    "date": "2025-09-20",
+    "units_sold": 1,
+    "net_revenue": 16.63,
+    "ad_spend": 26.35,
+    "inventory_on_hand": 96
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-001",
+    "date": "2025-09-19",
+    "units_sold": 1,
+    "net_revenue": 21.84,
+    "ad_spend": 20.28,
+    "inventory_on_hand": 85
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-001",
+    "date": "2025-09-18",
+    "units_sold": 3,
+    "net_revenue": 74.4,
+    "ad_spend": 19.86,
+    "inventory_on_hand": 50
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-001",
+    "date": "2025-09-17",
+    "units_sold": 2,
+    "net_revenue": 37.75,
+    "ad_spend": 25.22,
+    "inventory_on_hand": 20
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-001",
+    "date": "2025-09-16",
+    "units_sold": 3,
+    "net_revenue": 58.94,
+    "ad_spend": 28.21,
+    "inventory_on_hand": 44
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-001",
+    "date": "2025-09-15",
+    "units_sold": 3,
+    "net_revenue": 72.11,
+    "ad_spend": 17.36,
+    "inventory_on_hand": 60
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-001",
+    "date": "2025-09-14",
+    "units_sold": 6,
+    "net_revenue": 97.84,
+    "ad_spend": 28.86,
+    "inventory_on_hand": 91
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-001",
+    "date": "2025-09-13",
+    "units_sold": 8,
+    "net_revenue": 146.06,
+    "ad_spend": 25.19,
+    "inventory_on_hand": 95
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-001",
+    "date": "2025-09-12",
+    "units_sold": 11,
+    "net_revenue": 271.56,
+    "ad_spend": 24.21,
+    "inventory_on_hand": 32
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-001",
+    "date": "2025-09-11",
+    "units_sold": 13,
+    "net_revenue": 216.89,
+    "ad_spend": 22.05,
+    "inventory_on_hand": 29
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-001",
+    "date": "2025-09-10",
+    "units_sold": 15,
+    "net_revenue": 370.62,
+    "ad_spend": 21.72,
+    "inventory_on_hand": 82
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-001",
+    "date": "2025-09-09",
+    "units_sold": 16,
+    "net_revenue": 266.3,
+    "ad_spend": 29.14,
+    "inventory_on_hand": 97
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-001",
+    "date": "2025-09-08",
+    "units_sold": 19,
+    "net_revenue": 451.72,
+    "ad_spend": 17.41,
+    "inventory_on_hand": 40
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-001",
+    "date": "2025-09-07",
+    "units_sold": 21,
+    "net_revenue": 514.85,
+    "ad_spend": 16.2,
+    "inventory_on_hand": 53
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-001",
+    "date": "2025-09-06",
+    "units_sold": 23,
+    "net_revenue": 442.38,
+    "ad_spend": 16.37,
+    "inventory_on_hand": 100
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-001",
+    "date": "2025-09-05",
+    "units_sold": 20,
+    "net_revenue": 322.42,
+    "ad_spend": 27.66,
+    "inventory_on_hand": 67
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-001",
+    "date": "2025-09-04",
+    "units_sold": 19,
+    "net_revenue": 392.81,
+    "ad_spend": 19.62,
+    "inventory_on_hand": 26
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-002",
+    "date": "2025-10-18",
+    "units_sold": 15,
+    "net_revenue": 306.31,
+    "ad_spend": 26.61,
+    "inventory_on_hand": 53
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-002",
+    "date": "2025-10-17",
+    "units_sold": 18,
+    "net_revenue": 276.87,
+    "ad_spend": 22.7,
+    "inventory_on_hand": 54
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-002",
+    "date": "2025-10-16",
+    "units_sold": 15,
+    "net_revenue": 235.34,
+    "ad_spend": 29.28,
+    "inventory_on_hand": 66
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-002",
+    "date": "2025-10-15",
+    "units_sold": 12,
+    "net_revenue": 204.96,
+    "ad_spend": 25.39,
+    "inventory_on_hand": 73
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-002",
+    "date": "2025-10-14",
+    "units_sold": 12,
+    "net_revenue": 210.33,
+    "ad_spend": 23.92,
+    "inventory_on_hand": 54
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-002",
+    "date": "2025-10-13",
+    "units_sold": 9,
+    "net_revenue": 155.84,
+    "ad_spend": 21.41,
+    "inventory_on_hand": 70
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-002",
+    "date": "2025-10-12",
+    "units_sold": 12,
+    "net_revenue": 246.47,
+    "ad_spend": 17.98,
+    "inventory_on_hand": 54
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-002",
+    "date": "2025-10-11",
+    "units_sold": 15,
+    "net_revenue": 298.05,
+    "ad_spend": 27.64,
+    "inventory_on_hand": 87
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-002",
+    "date": "2025-10-10",
+    "units_sold": 17,
+    "net_revenue": 274.18,
+    "ad_spend": 23.43,
+    "inventory_on_hand": 57
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-002",
+    "date": "2025-10-09",
+    "units_sold": 14,
+    "net_revenue": 292.15,
+    "ad_spend": 28.42,
+    "inventory_on_hand": 73
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-002",
+    "date": "2025-10-08",
+    "units_sold": 17,
+    "net_revenue": 358.59,
+    "ad_spend": 16.84,
+    "inventory_on_hand": 26
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-002",
+    "date": "2025-10-07",
+    "units_sold": 14,
+    "net_revenue": 316.24,
+    "ad_spend": 26.11,
+    "inventory_on_hand": 53
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-002",
+    "date": "2025-10-06",
+    "units_sold": 11,
+    "net_revenue": 192.54,
+    "ad_spend": 15.41,
+    "inventory_on_hand": 67
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-002",
+    "date": "2025-10-05",
+    "units_sold": 12,
+    "net_revenue": 287.76,
+    "ad_spend": 23.14,
+    "inventory_on_hand": 95
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-002",
+    "date": "2025-10-04",
+    "units_sold": 14,
+    "net_revenue": 212.45,
+    "ad_spend": 18.02,
+    "inventory_on_hand": 59
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-002",
+    "date": "2025-10-03",
+    "units_sold": 13,
+    "net_revenue": 305.9,
+    "ad_spend": 27.75,
+    "inventory_on_hand": 27
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-002",
+    "date": "2025-10-02",
+    "units_sold": 15,
+    "net_revenue": 302.12,
+    "ad_spend": 22.75,
+    "inventory_on_hand": 44
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-002",
+    "date": "2025-10-01",
+    "units_sold": 17,
+    "net_revenue": 421.34,
+    "ad_spend": 24.26,
+    "inventory_on_hand": 20
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-002",
+    "date": "2025-09-30",
+    "units_sold": 15,
+    "net_revenue": 348.04,
+    "ad_spend": 22.13,
+    "inventory_on_hand": 57
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-002",
+    "date": "2025-09-29",
+    "units_sold": 12,
+    "net_revenue": 262.26,
+    "ad_spend": 21.09,
+    "inventory_on_hand": 66
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-002",
+    "date": "2025-09-28",
+    "units_sold": 11,
+    "net_revenue": 225.34,
+    "ad_spend": 22.05,
+    "inventory_on_hand": 94
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-002",
+    "date": "2025-09-27",
+    "units_sold": 13,
+    "net_revenue": 300.3,
+    "ad_spend": 18.18,
+    "inventory_on_hand": 49
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-002",
+    "date": "2025-09-26",
+    "units_sold": 13,
+    "net_revenue": 243.21,
+    "ad_spend": 17.53,
+    "inventory_on_hand": 27
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-002",
+    "date": "2025-09-25",
+    "units_sold": 10,
+    "net_revenue": 220.22,
+    "ad_spend": 27.41,
+    "inventory_on_hand": 78
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-002",
+    "date": "2025-09-24",
+    "units_sold": 7,
+    "net_revenue": 173.85,
+    "ad_spend": 27.41,
+    "inventory_on_hand": 65
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-002",
+    "date": "2025-09-23",
+    "units_sold": 4,
+    "net_revenue": 94.67,
+    "ad_spend": 15.24,
+    "inventory_on_hand": 70
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-002",
+    "date": "2025-09-22",
+    "units_sold": 6,
+    "net_revenue": 95.69,
+    "ad_spend": 23.26,
+    "inventory_on_hand": 81
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-002",
+    "date": "2025-09-21",
+    "units_sold": 8,
+    "net_revenue": 140.07,
+    "ad_spend": 16.3,
+    "inventory_on_hand": 44
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-002",
+    "date": "2025-09-20",
+    "units_sold": 7,
+    "net_revenue": 136.17,
+    "ad_spend": 17.14,
+    "inventory_on_hand": 84
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-002",
+    "date": "2025-09-19",
+    "units_sold": 7,
+    "net_revenue": 127.6,
+    "ad_spend": 20.04,
+    "inventory_on_hand": 89
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-002",
+    "date": "2025-09-18",
+    "units_sold": 7,
+    "net_revenue": 112.21,
+    "ad_spend": 23.06,
+    "inventory_on_hand": 90
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-002",
+    "date": "2025-09-17",
+    "units_sold": 10,
+    "net_revenue": 150.7,
+    "ad_spend": 26.63,
+    "inventory_on_hand": 95
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-002",
+    "date": "2025-09-16",
+    "units_sold": 11,
+    "net_revenue": 173.26,
+    "ad_spend": 27.07,
+    "inventory_on_hand": 24
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-002",
+    "date": "2025-09-15",
+    "units_sold": 9,
+    "net_revenue": 135.93,
+    "ad_spend": 23.49,
+    "inventory_on_hand": 85
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-002",
+    "date": "2025-09-14",
+    "units_sold": 11,
+    "net_revenue": 177.45,
+    "ad_spend": 17.41,
+    "inventory_on_hand": 61
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-002",
+    "date": "2025-09-13",
+    "units_sold": 9,
+    "net_revenue": 224.91,
+    "ad_spend": 23.15,
+    "inventory_on_hand": 78
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-002",
+    "date": "2025-09-12",
+    "units_sold": 8,
+    "net_revenue": 157.63,
+    "ad_spend": 23.68,
+    "inventory_on_hand": 46
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-002",
+    "date": "2025-09-11",
+    "units_sold": 6,
+    "net_revenue": 123.38,
+    "ad_spend": 23.62,
+    "inventory_on_hand": 33
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-002",
+    "date": "2025-09-10",
+    "units_sold": 9,
+    "net_revenue": 186.27,
+    "ad_spend": 26.74,
+    "inventory_on_hand": 76
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-002",
+    "date": "2025-09-09",
+    "units_sold": 9,
+    "net_revenue": 204.82,
+    "ad_spend": 28.7,
+    "inventory_on_hand": 25
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-002",
+    "date": "2025-09-08",
+    "units_sold": 6,
+    "net_revenue": 136.23,
+    "ad_spend": 17.78,
+    "inventory_on_hand": 24
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-002",
+    "date": "2025-09-07",
+    "units_sold": 6,
+    "net_revenue": 94.84,
+    "ad_spend": 15.91,
+    "inventory_on_hand": 29
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-002",
+    "date": "2025-09-06",
+    "units_sold": 7,
+    "net_revenue": 110.69,
+    "ad_spend": 29.87,
+    "inventory_on_hand": 69
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-002",
+    "date": "2025-09-05",
+    "units_sold": 6,
+    "net_revenue": 149.07,
+    "ad_spend": 26.17,
+    "inventory_on_hand": 65
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-002",
+    "date": "2025-09-04",
+    "units_sold": 7,
+    "net_revenue": 148.98,
+    "ad_spend": 17.66,
+    "inventory_on_hand": 73
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-003",
+    "date": "2025-10-18",
+    "units_sold": 14,
+    "net_revenue": 308.02,
+    "ad_spend": 24.09,
+    "inventory_on_hand": 51
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-003",
+    "date": "2025-10-17",
+    "units_sold": 15,
+    "net_revenue": 344.09,
+    "ad_spend": 20.87,
+    "inventory_on_hand": 42
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-003",
+    "date": "2025-10-16",
+    "units_sold": 16,
+    "net_revenue": 291.38,
+    "ad_spend": 28.45,
+    "inventory_on_hand": 50
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-003",
+    "date": "2025-10-15",
+    "units_sold": 17,
+    "net_revenue": 271.92,
+    "ad_spend": 29.69,
+    "inventory_on_hand": 28
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-003",
+    "date": "2025-10-14",
+    "units_sold": 19,
+    "net_revenue": 330.48,
+    "ad_spend": 26.8,
+    "inventory_on_hand": 74
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-003",
+    "date": "2025-10-13",
+    "units_sold": 21,
+    "net_revenue": 477.54,
+    "ad_spend": 27.57,
+    "inventory_on_hand": 74
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-003",
+    "date": "2025-10-12",
+    "units_sold": 24,
+    "net_revenue": 537.68,
+    "ad_spend": 22.0,
+    "inventory_on_hand": 28
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-003",
+    "date": "2025-10-11",
+    "units_sold": 22,
+    "net_revenue": 356.75,
+    "ad_spend": 17.62,
+    "inventory_on_hand": 81
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-003",
+    "date": "2025-10-10",
+    "units_sold": 21,
+    "net_revenue": 419.9,
+    "ad_spend": 28.59,
+    "inventory_on_hand": 31
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-003",
+    "date": "2025-10-09",
+    "units_sold": 22,
+    "net_revenue": 517.72,
+    "ad_spend": 20.02,
+    "inventory_on_hand": 23
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-003",
+    "date": "2025-10-08",
+    "units_sold": 22,
+    "net_revenue": 435.01,
+    "ad_spend": 16.84,
+    "inventory_on_hand": 49
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-003",
+    "date": "2025-10-07",
+    "units_sold": 24,
+    "net_revenue": 463.43,
+    "ad_spend": 27.46,
+    "inventory_on_hand": 82
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-003",
+    "date": "2025-10-06",
+    "units_sold": 27,
+    "net_revenue": 495.66,
+    "ad_spend": 16.52,
+    "inventory_on_hand": 97
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-003",
+    "date": "2025-10-05",
+    "units_sold": 24,
+    "net_revenue": 597.65,
+    "ad_spend": 28.76,
+    "inventory_on_hand": 32
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-003",
+    "date": "2025-10-04",
+    "units_sold": 25,
+    "net_revenue": 462.36,
+    "ad_spend": 29.5,
+    "inventory_on_hand": 44
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-003",
+    "date": "2025-10-03",
+    "units_sold": 23,
+    "net_revenue": 416.11,
+    "ad_spend": 24.66,
+    "inventory_on_hand": 62
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-003",
+    "date": "2025-10-02",
+    "units_sold": 20,
+    "net_revenue": 439.21,
+    "ad_spend": 15.56,
+    "inventory_on_hand": 93
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-003",
+    "date": "2025-10-01",
+    "units_sold": 20,
+    "net_revenue": 326.07,
+    "ad_spend": 16.73,
+    "inventory_on_hand": 56
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-003",
+    "date": "2025-09-30",
+    "units_sold": 17,
+    "net_revenue": 317.58,
+    "ad_spend": 16.44,
+    "inventory_on_hand": 34
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-003",
+    "date": "2025-09-29",
+    "units_sold": 15,
+    "net_revenue": 233.17,
+    "ad_spend": 21.84,
+    "inventory_on_hand": 53
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-003",
+    "date": "2025-09-28",
+    "units_sold": 16,
+    "net_revenue": 318.41,
+    "ad_spend": 16.58,
+    "inventory_on_hand": 35
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-003",
+    "date": "2025-09-27",
+    "units_sold": 19,
+    "net_revenue": 299.46,
+    "ad_spend": 22.54,
+    "inventory_on_hand": 72
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-003",
+    "date": "2025-09-26",
+    "units_sold": 21,
+    "net_revenue": 482.01,
+    "ad_spend": 18.52,
+    "inventory_on_hand": 49
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-003",
+    "date": "2025-09-25",
+    "units_sold": 18,
+    "net_revenue": 304.01,
+    "ad_spend": 23.17,
+    "inventory_on_hand": 49
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-003",
+    "date": "2025-09-24",
+    "units_sold": 21,
+    "net_revenue": 448.34,
+    "ad_spend": 16.63,
+    "inventory_on_hand": 77
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-003",
+    "date": "2025-09-23",
+    "units_sold": 24,
+    "net_revenue": 383.78,
+    "ad_spend": 26.91,
+    "inventory_on_hand": 42
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-003",
+    "date": "2025-09-22",
+    "units_sold": 27,
+    "net_revenue": 429.98,
+    "ad_spend": 25.27,
+    "inventory_on_hand": 67
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-003",
+    "date": "2025-09-21",
+    "units_sold": 25,
+    "net_revenue": 452.66,
+    "ad_spend": 22.99,
+    "inventory_on_hand": 86
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-003",
+    "date": "2025-09-20",
+    "units_sold": 25,
+    "net_revenue": 585.6,
+    "ad_spend": 17.04,
+    "inventory_on_hand": 100
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-003",
+    "date": "2025-09-19",
+    "units_sold": 24,
+    "net_revenue": 482.02,
+    "ad_spend": 20.43,
+    "inventory_on_hand": 64
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-003",
+    "date": "2025-09-18",
+    "units_sold": 22,
+    "net_revenue": 378.58,
+    "ad_spend": 27.03,
+    "inventory_on_hand": 40
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-003",
+    "date": "2025-09-17",
+    "units_sold": 21,
+    "net_revenue": 328.4,
+    "ad_spend": 23.99,
+    "inventory_on_hand": 24
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-003",
+    "date": "2025-09-16",
+    "units_sold": 22,
+    "net_revenue": 365.32,
+    "ad_spend": 19.84,
+    "inventory_on_hand": 62
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-003",
+    "date": "2025-09-15",
+    "units_sold": 25,
+    "net_revenue": 560.2,
+    "ad_spend": 23.15,
+    "inventory_on_hand": 74
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-003",
+    "date": "2025-09-14",
+    "units_sold": 22,
+    "net_revenue": 493.42,
+    "ad_spend": 20.48,
+    "inventory_on_hand": 65
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-003",
+    "date": "2025-09-13",
+    "units_sold": 25,
+    "net_revenue": 465.68,
+    "ad_spend": 29.48,
+    "inventory_on_hand": 37
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-003",
+    "date": "2025-09-12",
+    "units_sold": 28,
+    "net_revenue": 464.56,
+    "ad_spend": 27.88,
+    "inventory_on_hand": 85
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-003",
+    "date": "2025-09-11",
+    "units_sold": 27,
+    "net_revenue": 511.6,
+    "ad_spend": 21.83,
+    "inventory_on_hand": 96
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-003",
+    "date": "2025-09-10",
+    "units_sold": 26,
+    "net_revenue": 426.74,
+    "ad_spend": 24.92,
+    "inventory_on_hand": 30
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-003",
+    "date": "2025-09-09",
+    "units_sold": 26,
+    "net_revenue": 398.38,
+    "ad_spend": 24.17,
+    "inventory_on_hand": 40
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-003",
+    "date": "2025-09-08",
+    "units_sold": 24,
+    "net_revenue": 373.99,
+    "ad_spend": 23.42,
+    "inventory_on_hand": 94
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-003",
+    "date": "2025-09-07",
+    "units_sold": 23,
+    "net_revenue": 471.59,
+    "ad_spend": 15.74,
+    "inventory_on_hand": 60
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-003",
+    "date": "2025-09-06",
+    "units_sold": 22,
+    "net_revenue": 413.53,
+    "ad_spend": 21.96,
+    "inventory_on_hand": 65
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-003",
+    "date": "2025-09-05",
+    "units_sold": 25,
+    "net_revenue": 382.93,
+    "ad_spend": 26.08,
+    "inventory_on_hand": 67
+  },
+  {
+    "seller_id": "demo-seller",
+    "sku": "SKU-003",
+    "date": "2025-09-04",
+    "units_sold": 22,
+    "net_revenue": 358.87,
+    "ad_spend": 26.91,
+    "inventory_on_hand": 51
+  }
+]
