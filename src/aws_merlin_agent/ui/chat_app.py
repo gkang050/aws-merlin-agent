@@ -4,9 +4,16 @@ MERLIN AI Agent Chat Interface
 Conversational UI powered by Amazon Bedrock Agent Core with Nova/Claude reasoning.
 Demonstrates autonomous agent capabilities for the AWS AI Agent Hackathon.
 """
+import sys
 import uuid
+from pathlib import Path
 
 import streamlit as st
+
+# Add src to path for Streamlit Cloud deployment
+src_path = Path(__file__).parent.parent.parent
+if str(src_path) not in sys.path:
+    sys.path.insert(0, str(src_path))
 
 from aws_merlin_agent.agent.workflows.agent_plan import MerlinAgentWorkflow
 
