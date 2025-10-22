@@ -167,6 +167,7 @@ class AgentStack(Stack):
                 "StreamlitImage",
                 directory=".",
                 file="streamlit.Dockerfile",
+                platform=ecr_assets.Platform.LINUX_AMD64,  # Force AMD64 for App Runner
             )
             
             # Create IAM role for App Runner to access ECR

@@ -32,7 +32,7 @@ env/
 path/to/venv/
 
 # Poetry
-# poetry.lock - Keep this for reproducible builds
+# Note: poetry.lock is committed for reproducible builds
 
 # PyCharm
 .idea/
@@ -149,5 +149,5 @@ docs/diagrams/quick-reference.txt
 .ruff_cache/
 
 # Streamlit secrets (keep config.toml for theme)
-*.github/
-*.streamlit/
+.github/
+.streamlit/

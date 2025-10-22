@@ -33,6 +33,15 @@ class MerlinAgentWorkflow:
         self.bedrock_agent = BedrockAgentOrchestrator(agent_id, agent_alias_id)
 
     def _fetch_recent_rows(self, sku: str, limit: int = 7) -> List[Dict[str, str]]:
+        # Check if running in demo/mock mode (no AWS credentials)
+        inference_mode = os.getenv("MERLIN_INFERENCE_MODE", "local")
+        
+        if inference_mode == "local" or not os.getenv("AWS_ACCESS_KEY_ID"):
+            # Return mock data for demo
+            logger.info("Running in mock mode - returning sample data")
+            return self._get_mock_data(sku, limit)
+        
+        # Real AWS mode
         sql = f"""
         SELECT seller_id, sku, sale_date, units_sold, net_revenue_usd, ad_spend_usd, inventory_on_hand
         FROM sales_fact
@@ -51,6 +60,32 @@ class MerlinAgentWorkflow:
         rows.sort(key=lambda r: r.get("sale_date"))
         logger.info("Collected %d rows for sku=%s", len(rows), sku)
         return rows
+    
+    def _get_mock_data(self, sku: str, limit: int = 7) -> List[Dict[str, str]]:
+        """Generate mock data for demo mode."""
+        import random
+        from datetime import datetime, timedelta
+        
+        mock_rows = []
+        base_date = datetime.now() - timedelta(days=limit)
+        
+        for i in range(limit):
+            date = base_date + timedelta(days=i)
+            units = random.randint(10, 25)
+            revenue = units * random.uniform(25, 35)
+            ad_spend = revenue * random.uniform(0.08, 0.12)
+            
+            mock_rows.append({
+                "seller_id": "DEMO-SELLER",
+                "sku": sku,
+                "sale_date": date.strftime("%Y-%m-%d"),
+                "units_sold": float(units),
+                "net_revenue_usd": round(revenue, 2),
+                "ad_spend_usd": round(ad_spend, 2),
+                "inventory_on_hand": float(random.randint(50, 150))
+            })
+        
+        return mock_rows
 
     def summarize_performance(self, sku: str) -> Dict[str, object]:
         """
@@ -59,7 +94,37 @@ class MerlinAgentWorkflow:
         This demonstrates the AI agent's ability to analyze data and provide insights.
         """
         rows = self._fetch_recent_rows(sku)
-        narrative = bedrock_summary.summarize_rows(rows)
+        
+        # In mock mode, generate a simple summary without calling Bedrock
+        inference_mode = os.getenv("MERLIN_INFERENCE_MODE", "local")
+        if inference_mode == "local" or not os.getenv("AWS_ACCESS_KEY_ID"):
+            # Generate mock summary
+            total_units = sum(float(row.get("units_sold", 0)) for row in rows)
+            total_revenue = sum(float(row.get("net_revenue_usd", 0)) for row in rows)
+            total_ad_spend = sum(float(row.get("ad_spend_usd", 0)) for row in rows)
+            acos = (total_ad_spend / total_revenue * 100) if total_revenue > 0 else 0
+            
+            narrative = f"""📊 Performance Summary for {sku} (Demo Mode)
+
+**7-Day Overview:**
+• Total Units Sold: {int(total_units)}
+• Total Revenue: ${total_revenue:,.2f}
+• Total Ad Spend: ${total_ad_spend:,.2f}
+• ACOS: {acos:.1f}%
+
+**Analysis:**
+The product shows {('strong' if total_units > 100 else 'moderate')} sales performance with a {'healthy' if acos < 15 else 'high'} advertising cost of sale. 
+
+**Recommendations:**
+1. {'Maintain' if acos < 15 else 'Optimize'} current advertising strategy
+2. Monitor inventory levels (currently {int(rows[-1].get('inventory_on_hand', 0))} units)
+3. Consider {'increasing' if total_units > 100 else 'adjusting'} ad budget based on performance
+
+*Note: This is demo mode with sample data. For real AI analysis, deploy with AWS credentials.*"""
+        else:
+            # Real Bedrock mode
+            narrative = bedrock_summary.summarize_rows(rows)
+        
         return {"narrative": narrative, "rows": rows}
     
     def conversational_query(self, user_query: str, session_id: Optional[str] = None) -> Dict[str, Any]:
@@ -134,7 +199,24 @@ class MerlinAgentWorkflow:
         if not feature_payload.get("instances"):
             logger.warning("No feature instances available for forecast")
             return {"predictions": []}
-        logger.info("Requesting forecast")
+        
+        # Check if running in mock mode
+        inference_mode = os.getenv("MERLIN_INFERENCE_MODE", "local")
+        if inference_mode == "local" or not os.getenv("AWS_ACCESS_KEY_ID"):
+            # Generate mock forecast
+            import random
+            num_predictions = len(feature_payload.get("instances", []))
+            if num_predictions == 0:
+                num_predictions = 7
+            
+            mock_predictions = [random.randint(15, 30) for _ in range(num_predictions)]
+            logger.info("Returning mock forecast (demo mode)")
+            return {
+                "predictions": mock_predictions,
+                "note": "Demo mode - using mock ML predictions. Deploy with AWS for real forecasts."
+            }
+        
+        logger.info("Requesting forecast from SageMaker")
         return self.forecast_client.predict(feature_payload)
 
 

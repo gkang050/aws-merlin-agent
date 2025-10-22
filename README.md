@@ -8,8 +8,9 @@ An autonomous AI agent for e-commerce marketplace sellers, built with Amazon Bed
 
 **Quick Links:**
 - [Quick Start](#quick-start) - Get running locally in 5 minutes
+- [Free Demo Deployment](docs/DEPLOYMENT.md) - Deploy publicly for free
 - [Testing](#testing) - Run tests
-- [AWS Deployment](#aws-deployment) - Deploy to AWS
+- [AWS Deployment](#aws-deployment) - Full deployment to AWS
 - [Architecture](docs/ARCHITECTURE.md) - System design
 - [PRD](docs/PRD.md) - Product requirements
 
@@ -264,7 +265,3 @@ Copyright © 2025 MERLIN Team
 ## Contact
 
 For questions or support, please open an issue in the repository.
-
----
-
-Built with ❤️ using AWS GenAI Stack

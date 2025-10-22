@@ -60,8 +60,13 @@ with st.sidebar:
         st.session_state.session_id = str(uuid.uuid4())
         st.rerun()
 
-# Initialize workflow
-workflow = MerlinAgentWorkflow()
+# Initialize workflow with error handling
+try:
+    workflow = MerlinAgentWorkflow()
+except Exception as e:
+    st.error(f"⚠️ Error initializing MERLIN: {str(e)}")
+    st.info("Running in demo mode with limited functionality")
+    workflow = None
 
 # Display chat messages
 for message in st.session_state.messages:
@@ -75,19 +80,22 @@ for message in st.session_state.messages:
 
 # Chat input
 if prompt := st.chat_input("Ask MERLIN anything about your marketplace performance..."):
-    # Add user message
-    st.session_state.messages.append({"role": "user", "content": prompt})
-    with st.chat_message("user"):
-        st.markdown(prompt)
-    
-    # Get agent response
-    with st.chat_message("assistant"):
-        with st.spinner("🧙‍♂️ MERLIN is thinking..."):
-            try:
-                response = workflow.conversational_query(
-                    user_query=prompt,
-                    session_id=st.session_state.session_id
-                )
+    if workflow is None:
+        st.error("⚠️ MERLIN is not initialized. Please check the logs.")
+    else:
+        # Add user message
+        st.session_state.messages.append({"role": "user", "content": prompt})
+        with st.chat_message("user"):
+            st.markdown(prompt)
+        
+        # Get agent response
+        with st.chat_message("assistant"):
+            with st.spinner("🧙‍♂️ MERLIN is thinking..."):
+                try:
+                    response = workflow.conversational_query(
+                        user_query=prompt,
+                        session_id=st.session_state.session_id
+                    )
                 
                 agent_message = response.get("response", "I apologize, but I encountered an issue processing your request.")
                 st.markdown(agent_message)
